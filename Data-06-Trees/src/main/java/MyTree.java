@@ -1,4 +1,3 @@
-
 import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -43,8 +42,8 @@ public class MyTree {
     public void preOrderTraversal(Node root){
         if (root==null) return;
         System.out.print(root.value+", ");
-        preOrderTraversal(root.leftChild);
-        preOrderTraversal(root.rightChild);
+        preOrderTraversal(root.leftChild);// call for left subtree
+        preOrderTraversal(root.rightChild);// call for right subtree
     }
     // In-Order Traversal of Tree  Root-Left-Right
     public void inOrderTraversal(Node root){

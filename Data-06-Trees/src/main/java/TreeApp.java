@@ -7,17 +7,17 @@ public class TreeApp {
         }
         VisualizeTree.printTree(tree.root, null,false);
 
-      /* System.out.println("Pre-Order Traversal");
+        System.out.println("Pre-Order Traversal");
         tree.preOrderTraversal(tree.root);
         System.out.println();
-        System.out.println("In-Order Traversal");
+      /*  System.out.println("In-Order Traversal");
         tree.inOrderTraversal(tree.root);
         System.out.println();
         System.out.println("Post-Order Traversal");
         tree.postOrderTraversal(tree.root);
         System.out.println();*/
-        System.out.println("Breadth First Traversal");
-        tree.levelOrderTraversal();
+        //System.out.println("Breadth First Traversal");
+        // tree.levelOrderTraversal();
 
         /*System.out.println();
         System.out.println("tree contains 6 is : " + tree.contains(6));
@@ -29,8 +29,8 @@ public class TreeApp {
         System.out.println();
         System.out.println( "Sum of leaf values:  " + tree.findSumOfLeaves(tree.root));
         System.out.println("Height of tree is: " + tree.height(tree.root.leftChild));*/
-        System.out.println();
-        System.out.println("Sum of Node Depths : "+ tree.calculateSumNodeDepths());
+        // System.out.println();
+        //  System.out.println("Sum of Node Depths : "+ tree.calculateSumNodeDepths());
 
     }
 }
